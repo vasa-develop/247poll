@@ -1,0 +1,18 @@
+Firebase:
+
+Collection: Polls
+document: {
+"pollId": "hash",
+"poll Title": "Is vasa also Vaibhav",
+"poll body": "Here are some evidences",
+"created by": "userId",
+"poll options": [{"yes": 0},{"no": 0}],
+"expires": server TimeStamp
+}
+
+Collection: Account
+document: {
+	"userId": "userId",
+	"joinedOn": "TimeStamp"
+	"polls voted": ["array of pollIds"],
+}
